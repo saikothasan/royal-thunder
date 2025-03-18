@@ -14,7 +14,20 @@
     "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.19",
+    "@hono/zod-validator": "^0.1.11",
+    "workers-ai-provider": "latest",
+    "ai": "latest"
     "hono": "4.7.1",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^4.0.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
@@ -22,6 +35,8 @@
     "@cloudflare/vite-plugin": "0.1.1",
     "@cloudflare/workers-types": "^4.20250204.0",
     "@eslint/js": "9.19.0",
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "@types/uuid": "^9.0.7",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "@vitejs/plugin-react": "4.3.4",
